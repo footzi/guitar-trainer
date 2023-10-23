@@ -1,0 +1,30 @@
+.container {
+    margin: 80px;
+}
+
+.list {
+    margin-top: 12px;
+    display: flex;
+    gap: 4px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.error-container {
+    margin-left: 12px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.table {
+    margin-top: 12px;
+}

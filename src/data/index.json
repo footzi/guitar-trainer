@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "note": "A",
+      "string": 6,
+      "fret": 7,
+      "src": "./media/6/A-6-7.mp3"
+    },
+    {
+      "note": "B",
+      "string": 6,
+      "fret": 9,
+      "src": "./media/6/B-6-9.mp3"
+    },
+    {
+      "note": "C",
+      "string": 6,
+      "fret": 10,
+      "src": "./media/6/C-6-10.mp3"
+    },
+    {
+      "note": "D",
+      "string": 6,
+      "fret": 12,
+      "src": "./media/6/D-6-12.mp3"
+    },
+    {
+      "note": "E",
+      "string": 6,
+      "fret": 14,
+      "src": "./media/6/E-6-14.mp3"
+    },
+    {
+      "note": "F",
+      "string": 6,
+      "fret": 15,
+      "src": "./media/6/F-6-15.mp3"
+    },
+    {
+      "note": "G",
+      "string": 6,
+      "fret": 17,
+      "src": "./media/6/G-6-17.mp3"
+    }
+  ]
+}
