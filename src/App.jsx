@@ -62,16 +62,16 @@ export const App = () => {
 
         {isError !== null && (
           <div className={styles['error-container']}>
-            {Boolean(isError) && <span className={styles.error}>Не правильно</span>}
-            {!isError && <span className={styles.success}>Правильно</span>}
+            {Boolean(isError) && <span className={styles.error}>{"It's"} wrong</span>}
+            {!isError && <span className={styles.success}>{"It's"} correct</span>}
           </div>
         )}
       </div>
 
       <ul className={styles.list}>
         {NOTES.map((note) => (
-          <li key={note}>
-            <button onClick={() => handleClickAnswer(note)}>{note}</button>
+          <li key={note.name}>
+            <button onClick={() => handleClickAnswer(note.name)}>{note.label}</button>
           </li>
         ))}
       </ul>
